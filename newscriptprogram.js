@@ -1,4 +1,3 @@
-var btn = document.createElement("BUTTON");        // Create a <button> element
-var t = document.createTextNode("CLICK ME");       // Create a text node
-btn.appendChild(t);                                // Append the text to <button>
-document.body.appendChild(btn);                    // Append <button> to <body>
+function sayWinston(){
+  window.alert("My name is winston");
+}
