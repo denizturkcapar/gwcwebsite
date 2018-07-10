@@ -1,12 +1,30 @@
-<html>
+
 <script src="newscriptprogram.js"></script>
 <link rel="stylesheet" href="styling.css"  type="text/css"/>
 
+<html
+<div id="game">
+  <div id="userSelection">
+   <h1>Select your choice</h1>
+     <ul>
+	<li class="selection" id="rock">
+<img src="http://laoblogger.com/images/asteroid-clipart-transparent-4.jpg" alt="rock"
+onclick="playWith('stone')"/>
+	</li>
+	<li class="selection" id="paper">
+<img src="https://inspirationhut.net/wp-content/uploads/2013/06/Paper-Shadow-3.jpg" alt="scissors"
+onclick="playWith('paper')"/>
+	</li>
+	<li class="selection" id="scissor">
+<img src="http://laoblogger.com/images/free-scissors-clipart-3.jpg" alt="scissors"
+onclick="playWith('scissor')"/>
+	</li>
+     </ul>
+     <button onclick="playGame()">Play</button>
+  </div>
+  <div id="result"></div>
+</div>
 
-  <h1>Hello!</h1>
-  <body>
-    <button onclick="sayWinston();">
-      Get the puppy's name
-    </button>
-  </body>
+
+
 </html>
